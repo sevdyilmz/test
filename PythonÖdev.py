@@ -35,15 +35,6 @@ daireCevre = 2 * (pi * daireYaricapi)
 print(daireAlan)
 print(daireCevre)
 
-
-daireYaricapi = float(input("Lütfen değer giriniz: \n"))
-
-daireAlan = math.pi * (daireYaricapi * daireYaricapi)
-daireCevre = 2 * (math.pi * daireYaricapi)
-
-print(daireAlan)
-print(daireCevre)
-
 5-Kullanıcıdan alınan bir sayının palindrom olup olmadığını bulan bir program yazınız.
 sayi = input("Lütfen bir sayi girin: ")
 ters_sayi = sayi[::-1]
